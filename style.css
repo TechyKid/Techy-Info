@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    color: black;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: blue;
+}
+
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.article {
+    height: 100px;
+    width: 430px;
+    font-size: 50px;
+    background-color: grey;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.apple {
+    height: 100px;
+    width: 130px;
+    padding-right: 10px
+}
+
+.dark {
+   float: right;
+   padding-top: 7px;
+   padding-right: 50px;
+   padding-bottom: 6px;
+}
+
+button {
+    background-color: white;
+    height: 34px;
+    width: 100px;
+    border: 0px;
+    border-radius: 5px;
+    
+}
+
